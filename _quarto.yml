@@ -7,7 +7,10 @@ website:
   navbar:
     left:
       - href: index.qmd
-      - about.qmd
+      - CV.qmd
+      - posts.qmd
+      - research.qmd
+      - talks.qmd
       - posts.qmd
   page-footer:
     left: |

@@ -1,0 +1,9 @@
+---
+title: "Posts"
+listing: 
+  contents: posts 
+  type: grid # or `default` or `table`; each type has its own set of yaml options to include
+  sort: "date desc"
+  categories: true 
+title-block-banner: true
+---
