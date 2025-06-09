@@ -1,9 +1,44 @@
 ---
-title: "Projects"
+title: Curriculum vitae
+description: "Calum's CV"
+date: 2025-06-09
+published-title: CV last updated
+engine: knitr
+freeze: false
+cv:
+  pdf: "2025-latest-cv-cm.pdf"
 ---
 
-About this site
+```{css, echo=FALSE}
+#title-block-header .description {
+    display: none;
+}
+```
 
-```{r}
-1 + 1
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$cv$pdf`" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download current CV
+  </a>
+</p>
 ```

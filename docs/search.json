@@ -47,5 +47,33 @@
     "title": "About me",
     "section": "Experience",
     "text": "Experience"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJun 9, 2025\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJun 9, 2025\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "CV.html#latest-cv",
+    "href": "CV.html#latest-cv",
+    "title": "CV",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
   }
 ]
