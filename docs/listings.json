@@ -8,16 +8,12 @@
   },
   {
     "listing": "/talks.html",
-    "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/research.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/research/articles/2024b.html"
     ]
   }
 ]

@@ -1,9 +1,9 @@
 ---
-title: "Research"
-listing: 
-  contents: posts 
-  type: grid # or `default` or `table`; each type has its own set of yaml options to include
-  sort: "date desc"
-  categories: true 
-title-block-banner: true
+title: "My publications listing"
+listing:
+  - id: articles-list
+    contents: research/articles/*.qmd
+    template: html/research/publications.ejs
 ---
+
+I work on the science of biodiversity conservation. My research focuses are global conservation policy and action, macroecological modelling, and sustainable agricultural systems. I also work on nature futures and scenario analysis.

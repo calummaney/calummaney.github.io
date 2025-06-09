@@ -53,7 +53,7 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJun 9, 2025\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "CV.html",
@@ -65,9 +65,9 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "My publications listing",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJun 9, 2025\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "I work on the science of biodiversity conservation. My research focuses are global conservation policy and action, macroecological modelling, and sustainable agricultural systems. I also work on nature futures and scenario analysis.\n\n\n\n\n\n\n  &lt;span class=\"listing-date\"&gt;(Nov 1, 2022)&lt;/span&gt;\n  &lt;span class=\"listing-author\"&gt;David Folio, Antoine Ferreira&lt;/span&gt;.\n  &lt;a href=\"/research\\articles\\2024b.qmd\"&gt;\n    &lt;span class=\"listing-title\"&gt;Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs&lt;/span&gt;\n    \n  &lt;/a&gt;.\n  \n    &lt;span class=\"listing-publication fst-italic\"&gt;IEEE Trans. Cont. Syst. Technol.&lt;/span&gt;.\n  \n&lt;/div&gt;\n\n\nNo matching items\n:::\n:::"
   },
   {
     "objectID": "CV.html#latest-cv",
@@ -82,5 +82,33 @@
     "title": "Curriculum vitae",
     "section": "",
     "text": "Download current CV"
+  },
+  {
+    "objectID": "research.html#journal-articles",
+    "href": "research.html#journal-articles",
+    "title": "Research",
+    "section": "Journal articles",
+    "text": "Journal articles"
+  },
+  {
+    "objectID": "research/articles/2024b.html",
+    "href": "research/articles/2024b.html",
+    "title": "Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs",
+    "section": "",
+    "text": "Compelling evidence for feedbacks between commodity crop production systems and local ecosystems has led to predictions that biodiversity loss could threaten food security. However, for this to happen agricultural production systems must both impact and depend on the same components of biodiversity. Here, we review the evidence for and against the simultaneous impacts and dependencies of eight important commodity crops on biodiversity. We evaluate the risk that pollination, pest control or biodiversity-mediated soil health maintenance services are at risk from local biodiversity loss. We find that for key species groups such as ants, bees and birds, the production of commodities including coffee, cocoa and soya bean is indeed likely to be at risk from local biodiversity loss. However, we also identify several combinations of commodity, ecosystem service and component of biodiversity that are unlikely to lead to reinforcing feedbacks and lose–lose outcomes for biodiversity and agriculture. Furthermore, there are significant gaps in the evidence both for and against a mutualism between biodiversity and agricultural commodity production, highlighting the need for more evaluation of the importance of specific biodiversity groups to agricultural systems globally."
+  },
+  {
+    "objectID": "research/articles/2024b.html#abstract",
+    "href": "research/articles/2024b.html#abstract",
+    "title": "Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs",
+    "section": "",
+    "text": "Compelling evidence for feedbacks between commodity crop production systems and local ecosystems has led to predictions that biodiversity loss could threaten food security. However, for this to happen agricultural production systems must both impact and depend on the same components of biodiversity. Here, we review the evidence for and against the simultaneous impacts and dependencies of eight important commodity crops on biodiversity. We evaluate the risk that pollination, pest control or biodiversity-mediated soil health maintenance services are at risk from local biodiversity loss. We find that for key species groups such as ants, bees and birds, the production of commodities including coffee, cocoa and soya bean is indeed likely to be at risk from local biodiversity loss. However, we also identify several combinations of commodity, ecosystem service and component of biodiversity that are unlikely to lead to reinforcing feedbacks and lose–lose outcomes for biodiversity and agriculture. Furthermore, there are significant gaps in the evidence both for and against a mutualism between biodiversity and agricultural commodity production, highlighting the need for more evaluation of the importance of specific biodiversity groups to agricultural systems globally."
+  },
+  {
+    "objectID": "research/articles/2024b.html#key-bits",
+    "href": "research/articles/2024b.html#key-bits",
+    "title": "Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs",
+    "section": "Key bits:",
+    "text": "Key bits:"
   }
 ]

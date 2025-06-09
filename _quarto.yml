@@ -14,9 +14,6 @@ website:
       - posts.qmd
       - research.qmd
       - talks.qmd
-
-
-    
     right:
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:calum.maney@unep-wcmc.org"
