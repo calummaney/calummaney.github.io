@@ -1,9 +1,9 @@
 ---
-title: "My publications listing"
+title: "Research"
 listing:
   - id: articles-list
     contents: research/articles/*.qmd
-    template: html/research/publications.ejs
+    sort: "date desc"
+    type: table
 ---
 
-I work on the science of biodiversity conservation. My research focuses are global conservation policy and action, macroecological modelling, and sustainable agricultural systems. I also work on nature futures and scenario analysis.

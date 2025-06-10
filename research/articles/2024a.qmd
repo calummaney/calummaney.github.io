@@ -1,0 +1,29 @@
+---
+type: journal
+date: 2024-4
+title: "National commitments to Aichi Targets and their implications for monitoring the Kunming-Montreal Global Biodiversity Framework"
+description: | 
+  This paper analyses National Biodiversity Strategy and Action Plan documents from 2010-2020 in comparison to 6th National Reports to the Convention on Biological Diversity, to examine the trajectories of comitmetns made to nature.
+  author:
+  - name: Calum Maney
+    orcid: 0000-0002-6907-8178
+    url: https://calummaney.github.io
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - UNEP-WCMC
+      - Wageningen University & Research
+citation:
+  url: https://www.nature.com/articles/s44185-024-00039-5
+  type: article-journal
+  publisher: "Nature"
+  container-title: "npj Biodiversity"
+  container-title-short: "npj Biodiv."
+  number: 1
+  page: 6
+  volume: 3
+  keyword: biodiversity policy
+  abstract: |      
+   The Convention on Biological Biodiversity (CBD) exists as a major multilateral environmental agreement to safeguard biodiversity and “live in harmony with nature”. To deliver it, strategies and frameworks are set out in regular agreements that are then implemented at the national scale. However, we are not on track to achieve overall goals, and frameworks so far have not been successful. This could be due to unambitious targets, low follow-through on commitments, or desired outcomes for nature not being achieved when action is taken. Here, we focus on national planning and reporting documents from a set of 30% of Parties to the CBD. We found that nearly half of the commitments mentioned in national planning documents did not appear in the Sixth National Reports and that further losses emerged due to measures reported as incomplete or ineffective. There were differences between commitments to each of the Aichi Targets, with more losses in high-profile and “institutionally challenging” Targets. Commitments from Parties in different Human Development Index categories had different outcomes among Targets, and Parties self-identifying as “megadiverse countries” had overall higher rates of reported success. Our results are important for informing the monitoring of commitment implementation in the Kunming-Montreal “global biodiversity package”.
+---
