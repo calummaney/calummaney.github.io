@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-_quarto-vars','listing-language','listing-type','listing-date','listing-title','listing-description','listing-author','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-_quarto-vars","listing-language","listing-type","listing-date","listing-title","listing-description","listing-author","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -230,34 +230,41 @@ window.Quarto = {
 <p>My research involves lots of nice things about biodiversity, public policy, and sustainable agricultural systems.</p>
 <section id="journal-articles" class="level2">
 <h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
-<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
-<ol class="list publication-list" reversed="">
-<li data-index="0" data-listing-date-sort="1711926000000" data-listing-file-modified-sort="1749595689460" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="publication-info">
-<pre><code>  &lt;span class="listing-date"&gt;(Apr 1, 2024)&lt;/span&gt;
-  &lt;span class="listing-author"&gt;Calum Maney&lt;/span&gt;.
-  &lt;a href="/research\articles\2024-maney-nationalcommitments.qmd"&gt;
-    &lt;span class="listing-title"&gt;National commitments to Aichi Targets and their implications for monitoring the Kunming-Montreal Global Biodiversity Framework&lt;/span&gt;
-    
-  &lt;/a&gt;.
-  
-    &lt;span class="listing-publication fst-italic"&gt;npj Biodiv.&lt;/span&gt;.
-  
-&lt;/div&gt;</code></pre>
-</div></li>
-</ol>
-<div class="listing-no-matching d-none">No matching items</div>
-<p>:::</p>
-<p>:::</p>
 
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-articles">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1711926000000" data-listing-file-modified-sort="1749595689460" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./research/articles/2024-maney-nationalcommitments.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research/articles/2024-maney-nationalcommitments.html" class="no-external">National commitments to Aichi Targets and their implications for monitoring the Kunming-Montreal Global Biodiversity Framework</a>
+</h3>
+<div class="delink listing-description"><a href="./research/articles/2024-maney-nationalcommitments.html" class="no-external">
+<p>This paper analyses National Biodiversity Strategy and Action Plan documents from 2010-2020 in comparison to 6th National Reports to the Convention on Biological Diversity, to examine the trajectories of comitmetns made to nature.</p>
+</a></div>
 </div>
-<hr>
-
-
-</section></main></div>
-
-
- <!-- /main -->
+<div class="metadata">
+<a href="./research/articles/2024-maney-nationalcommitments.html" class="no-external">
+<div class="listing-date">
+Apr 1, 2024
+</div>
+<div class="listing-author">
+Calum Maney
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -657,7 +664,7 @@ window.Quarto = {
     }
   });
   </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

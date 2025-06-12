@@ -4,7 +4,6 @@ listing:
   - id: articles
     contents: "research/articles/*.qmd"
     sort: "date desc"
-    template: scripts/publications_listing.ejs
     categories: true
 page-layout: full
 ---
