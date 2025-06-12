@@ -74,20 +74,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-articles-list .list');
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-_quarto-vars','listing-language','listing-type','listing-date','listing-title','listing-description','listing-author','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-_quarto-vars","listing-language","listing-type","listing-date","listing-title","listing-description","listing-author","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-articles-list'] = new List('listing-articles-list', options);
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -193,14 +193,20 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal articles</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -209,7 +215,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -221,86 +227,37 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-articles-list">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-articles-list-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-articles-list'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1711926000000" data-listing-file-modified-sort="1749544170727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="National commitments to Aichi Targets and their implications for monitoring the Kunming-Montreal Global Biodiversity Framework" data-listing-filename-sort="2024a.qmd">
-<td>
-<span class="listing-date">Apr 1, 2024</span>
-</td>
-<td>
-<a href="./research/articles/2024a.html" class="title listing-title">National commitments to Aichi Targets and their implications for monitoring the Kunming-Montreal Global Biodiversity Framework</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1667260800000" data-listing-file-modified-sort="1749488283145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs" data-listing-filename-sort="2024b.qmd">
-<td>
-<span class="listing-date">Nov 1, 2022</span>
-</td>
-<td>
-<a href="./research/articles/2024b.html" class="title listing-title">Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs</a>
-</td>
-<td>
-<span class="listing-author">David Folio, Antoine Ferreira</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+<p>My research involves lots of nice things about biodiversity, public policy, and sustainable agricultural systems.</p>
+<section id="journal-articles" class="level2">
+<h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<ol class="list publication-list" reversed="">
+<li data-index="0" data-listing-date-sort="1711926000000" data-listing-file-modified-sort="1749595689460" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="publication-info">
+<pre><code>  &lt;span class="listing-date"&gt;(Apr 1, 2024)&lt;/span&gt;
+  &lt;span class="listing-author"&gt;Calum Maney&lt;/span&gt;.
+  &lt;a href="/research\articles\2024-maney-nationalcommitments.qmd"&gt;
+    &lt;span class="listing-title"&gt;National commitments to Aichi Targets and their implications for monitoring the Kunming-Montreal Global Biodiversity Framework&lt;/span&gt;
+    
+  &lt;/a&gt;.
+  
+    &lt;span class="listing-publication fst-italic"&gt;npj Biodiv.&lt;/span&gt;.
+  
+&lt;/div&gt;</code></pre>
+</div></li>
+</ol>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<p>:::</p>
+<p>:::</p>
+
+</div>
+<hr>
+
+
+</section></main></div>
+
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -700,7 +657,7 @@ window.Quarto = {
     }
   });
   </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

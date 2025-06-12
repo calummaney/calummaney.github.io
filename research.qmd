@@ -1,9 +1,15 @@
 ---
 title: "Research"
 listing:
-  - id: articles-list
-    contents: research/articles/*.qmd
+  - id: articles
+    contents: "research/articles/*.qmd"
     sort: "date desc"
-    type: table
+    template: scripts/publications_listing.ejs
+    categories: true
+page-layout: full
 ---
 
+My research involves lots of nice things about biodiversity, public policy, and sustainable agricultural systems.
+
+
+## Journal articles
