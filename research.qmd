@@ -5,6 +5,7 @@ listing:
     contents: "research/articles/*.qmd"
     sort: "date desc"
     categories: true
+    type: table
 page-layout: full
 ---
 
