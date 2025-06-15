@@ -9,11 +9,15 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text:  "CV"
-        href: CV.qmd
       - posts.qmd
       - research.qmd
       - talks.qmd
+      - text: "Experience"
+        href: employment.qmd
+      - text: "Education"
+        href: education.qmd
+      - text:  "Latest CV"
+        href: CV.qmd
     right:
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:calum.maney@unep-wcmc.org"
@@ -39,8 +43,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - united
     css: styles.css
     toc: true
 

@@ -1,13 +1,11 @@
 ---
-title: "About me"
+image: profile.jpg
+about:
+  template: jolla
 ---
 
-Intro :)
+I'm an ecologist and conservation scientist working at the United Nations Environment Programme World Conservation Monitoring Centre ([UNEP-WCMC](https://www.unep-wcmc.org/en)). I am also in the final year of my PhD at [Plant Production Systems](https://www.wur.nl/en/research-results/chair-groups/plant-sciences/chair-group-plant-production-systems.htm) in [Wageningen University](https://www.wur.nl/en.htm).
 
-## Experience
+I work as a modelling scientist in the Science Innovation Area at the UNEP-WCMC, where I also lead the UNEP-WCMC Nature Futures Focal Initiative. My research at Wageningen University focuses on agricultural systems and their inter-dependencies with biodiversity. I currently practice advocacy through my role on the [British Ecological Society's](https://www.britishecologicalsociety.org/) [ALDER committee](https://www.britishecologicalsociety.org/content/join-the-alder-network/).
 
-## Education
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I live in Ely, Cambridgeshire and enjoy good food, swimming wild, storytelling, and the odd video game.

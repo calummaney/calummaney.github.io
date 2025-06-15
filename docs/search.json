@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About me",
+    "title": "Calum Maney",
     "section": "",
-    "text": "Intro :)"
+    "text": "I’m an ecologist and conservation scientist working at the United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC). I am also in the final year of my PhD at Plant Production Systems in Wageningen University.\nI work as a modelling scientist in the Science Innovation Area at the UNEP-WCMC, where I also lead the UNEP-WCMC Nature Futures Focal Initiative. My research at Wageningen University focuses on agricultural systems and their inter-dependencies with biodiversity. I currently practice advocacy through my role on the British Ecological Society’s ALDER committee.\nI live in Ely, Cambridgeshire and enjoy good food, swimming wild, storytelling, and the odd video game."
   },
   {
     "objectID": "about.html",
@@ -46,7 +46,7 @@
     "href": "index.html#experience",
     "title": "About me",
     "section": "Experience",
-    "text": "Experience"
+    "text": "Experience\n\nUNEP-WCMC – Senior Modelling Scientist\n\nLead the scenarios- and forecasting- focused “Nature Futures” Focal Initiative.\nLead the “Bio-Futures” project investigating the biodiversity consequences of implemented the Kunming-Montreal Global Biodiversity Framework.\nLead a partnership with Google Earth focused on assessing and modelling the integrity of ecosystems within Protected Areas.\n\n\n\nUNEP-WCMC – Modelling Scientist\n\n\nTRADE Hub (UNEP-WCMC) – Project Researcher\n\n\nUNEP-WCMC – Programme Officer"
   },
   {
     "objectID": "talks.html",
@@ -145,5 +145,12 @@
     "title": "Are agricultural commodity production systems at risk from local biodiversity loss?",
     "section": "",
     "text": "CitationBibTeX citation:@misc{maney2024,\n  author = {Maney, Calum and Sassen, Marieke and E. Giller, Ken},\n  publisher = {Nature},\n  title = {Are Agricultural Commodity Production Systems at Risk from\n    Local Biodiversity Loss?},\n  number = {20},\n  date = {2024-09-01},\n  url = {https://royalsocietypublishing.org/doi/10.1098/rsbl.2024.0283},\n  langid = {en},\n  abstract = {Compelling evidence for feedbacks between commodity crop\n    production systems and local ecosystems has led to predictions that\n    biodiversity loss could threaten food security. However, for this to\n    happen agricultural production systems must both impact and depend\n    on the same components of biodiversity. Here, we review the evidence\n    for and against the simultaneous impacts and dependencies of eight\n    important commodity crops on biodiversity. We evaluate the risk that\n    pollination, pest control or biodiversity-mediated soil health\n    maintenance services are at risk from local biodiversity loss. We\n    find that for key species groups such as ants, bees and birds, the\n    production of commodities including coffee, cocoa and soya bean is\n    indeed likely to be at risk from local biodiversity loss. However,\n    we also identify several combinations of commodity, ecosystem\n    service and component of biodiversity that are unlikely to lead to\n    reinforcing feedbacks and lose–lose outcomes for biodiversity and\n    agriculture. Furthermore, there are significant gaps in the evidence\n    both for and against a mutualism between biodiversity and\n    agricultural commodity production, highlighting the need for more\n    evaluation of the importance of specific biodiversity groups to\n    agricultural systems globally.}\n}\nFor attribution, please cite this work as:\nManey, Calum, Marieke Sassen, and Ken E. Giller. 2024. “Are\nAgricultural Commodity Production Systems at Risk from Local\nBiodiversity Loss?” Biology Letters. Nature. https://royalsocietypublishing.org/doi/10.1098/rsbl.2024.0283."
+  },
+  {
+    "objectID": "employment.html",
+    "href": "employment.html",
+    "title": "My Experience",
+    "section": "",
+    "text": "UNEP-WCMC – Senior Modelling Scientist\n\nLead the scenarios- and forecasting- focused “Nature Futures” Focal Initiative.\nLead the “Bio-Futures” project investigating the biodiversity consequences of implemented the Kunming-Montreal Global Biodiversity Framework.\nLead a partnership with Google Earth focused on assessing and modelling the integrity of ecosystems within Protected Areas.\n\n\n\nUNEP-WCMC – Modelling Scientist\n\n\nTRADE Hub (UNEP-WCMC) – Project Researcher\n\n\nUNEP-WCMC – Programme Officer"
   }
 ]
