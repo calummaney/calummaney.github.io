@@ -12,6 +12,28 @@ author:
       corresponding: true
     affiliations:
       - name: UNEP-WCMC
+  - name: Daniela Guaras
+    affiliations:
+      - name: UNEP-WCMC
+  - name: Jerry Harrison
+    affiliations: UNEP-WCMC
+  - name: Alejandro Guizar Coutiño
+    orcid: 0000-0002-3509-9624
+    affiliations: 
+      - name: UNEP-WCMC
+  - name: Michael J. Harfoot
+    orcid: 0000-0003-2598-8652
+    affiliations: 
+      - name: Vizzuality
+  - name: Samantha L. L. Hill
+    affiliations:
+      - name: UNEP-WCMC
+  - name: Neil Burgess
+    affiliations: 
+      - name: UNEP-WCMC
+  - name: William Sutherland
+    affiliations:
+      - name: Department of Zoology, University of Cambridge
 citation:
   url: https://www.nature.com/articles/s44185-024-00039-5
   type: article

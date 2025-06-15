@@ -1,0 +1,35 @@
+---
+type: journal
+date: 2024-9
+title: "Are agricultural commodity production systems at risk from local biodiversity loss?"
+description: | 
+   This paper investigates the evidence that important commodity production systems (8 mostly tropical commodity crops) are "interdependent" with their local biodiversity, i.e. they impact biodiversity that they also depend on, meaning they are "ecologically unsustainable". 
+author:
+  - name: Calum Maney
+    orcid: 0000-0002-6907-8178
+    url: https://calummaney.github.io
+    attributes:
+      corresponding: true
+    affiliations:
+      - name: UNEP-WCMC
+      - name: Plant Production Systems, Wageningen University
+  - name: Marieke Sassen
+    orcid: 0000-0001-8844-7437
+    affiliations:
+      - name: Plant Production Systems, Wageningen University
+      - name: Environmental Research, Wageningen Research
+  - name: Ken E. Giller
+    orcid: 0000-0002-5998-4652
+    affiliations:
+      - name: Plant Production Systems, Wageningen University
+citation:
+  url: https://royalsocietypublishing.org/doi/10.1098/rsbl.2024.0283
+  type: article
+  publisher: "Nature"
+  container-title: "Biology Letters"
+  container-title-short: "Biol. Lett."
+  number: 20
+  keyword: biodiversity, agricultural biodiversity, ecosystem services
+  abstract: |      
+   Compelling evidence for feedbacks between commodity crop production systems and local ecosystems has led to predictions that biodiversity loss could threaten food security. However, for this to happen agricultural production systems must both impact and depend on the same components of biodiversity. Here, we review the evidence for and against the simultaneous impacts and dependencies of eight important commodity crops on biodiversity. We evaluate the risk that pollination, pest control or biodiversity-mediated soil health maintenance services are at risk from local biodiversity loss. We find that for key species groups such as ants, bees and birds, the production of commodities including coffee, cocoa and soya bean is indeed likely to be at risk from local biodiversity loss. However, we also identify several combinations of commodity, ecosystem service and component of biodiversity that are unlikely to lead to reinforcing feedbacks and lose–lose outcomes for biodiversity and agriculture. Furthermore, there are significant gaps in the evidence both for and against a mutualism between biodiversity and agricultural commodity production, highlighting the need for more evaluation of the importance of specific biodiversity groups to agricultural systems globally.
+---
