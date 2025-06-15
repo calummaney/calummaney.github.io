@@ -9,7 +9,7 @@ listing:
 page-layout: full
 ---
 
-My research involves lots of nice things about biodiversity, public policy, and sustainable agricultural systems.
+My research covers biodiversity, public policy, and sustainable agricultural systems.
 
 
 ## Journal articles
